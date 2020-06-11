@@ -4,7 +4,7 @@
   >
     <div
       class="row justify-content-center"
-      style="margin-bottom:-10px !important;"
+      style="margin-bottom: -10px !important;"
     >
       <div class="col-md-12">
         <br /><br /><br />
@@ -18,8 +18,8 @@
             d="M0,64L60,106.7C120,149,240,235,360,261.3C480,288,600,256,720,218.7C840,181,960,139,1080,128C1200,117,1320,139,1380,149.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
           />
         </svg>
-        <div class="col-md-12  boxloginmgc">
-          <div class="row row1 mt-4" style="border: none">
+        <div class="col-md-12 boxloginmgc">
+          <div class="row row1 mt-4" style="border: none;">
             <div class="col-md-6 col-6 col-sm-6">
               <div class="form-group">
                 <label for="exampleInputEmail1">Tahun</label>
@@ -68,11 +68,11 @@
                 />
               </div>
             </div>
-            <div class="col-md-12  mt-3 mb-2 ">
+            <div class="col-md-12 mt-3 mb-2">
               <div class="form-group">
                 <a
                   @click="getLogin(token)"
-                  style="color:white !important"
+                  style="color: white !important;"
                   href="#"
                   ><button
                     type="button"
