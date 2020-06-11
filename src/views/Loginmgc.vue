@@ -40,6 +40,8 @@
                   <option value="1">Quarter 1</option>
                   <option value="2">Quarter 2</option>
                   <option value="3">Quarter 3</option>
+                  <option value="3">Quarter 4</option>
+                  <option value="3">Quarter 5</option>
                 </select>
               </div>
             </div>
