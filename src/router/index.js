@@ -1,34 +1,22 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Loginmgc from "../views/Loginmgc.vue";
-import Pointmgc from "../views/Pointmgc.vue";
+import Catalog from "../views/Catalog.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
- 
+
   {
-    path: "/loginmgc",
+    path: "/catalog",
     props: true,
-    name: "Loginmgc",
-    component: Loginmgc
+    name: "Catalog",
+    component: Catalog,
   },
-  {
-    path: "/pointmgc/:outlet_id/:version",
-    props: true,
-    name: "Pointmgc",
-    component: Pointmgc,
-    beforeEnter: (to, from, next) => {
-      if (localStorage.getItem("token") == null) {
-        next("/loginmgc");
-      } else {
-        next();
-      }
-    }
-  }
+
 ];
 
 const router = new VueRouter({
-  routes
+  mode: "history",
+  routes,
 });
 export default router;

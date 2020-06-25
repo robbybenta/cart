@@ -80,11 +80,7 @@ body {
   border-radius: 10px;
 }
 
-.boxtitlepoint {
-  padding: 20px;
 
-  border-radius: 10px;
-}
 
 .boxtitlepoint2 {
   padding: 10px 10px 10px 10px;
@@ -118,7 +114,7 @@ body {
 
 .boxloginmgc {
   padding: 20px !important;
-  background-color: #064495;
+  background-color: #CC3399;
   color: white !important;
 }
 
@@ -135,10 +131,10 @@ h3 {
   color: white !important;
 }
 
-.boxtitle3 h3,
+/* .boxtitle3 h3,
 a {
   color: #fdda21 !important;
-}
+} */
 
 .boxtitle h2,
 h3,
@@ -146,11 +142,6 @@ h5 {
   color: #fdda21;
 }
 
-.boxtitlepoint h2,
-h3,
-h5 {
-  color: white;
-}
 
 table {
   text-align: center;
@@ -177,10 +168,10 @@ table {
   padding-left: 2rem !important;
 }
 
-img {
+/* img {
   background-size: cover;
   height: 70px;
-}
+} */
 
 .formp {
   color: rgb(192, 191, 191);
@@ -214,6 +205,23 @@ img {
 .formlogin {
   border-radius: 10px !important;
   padding: 1px 10px !important;
+
+}
+
+.buttonlogin {
+  border-radius: 10px !important;
+  padding: 1px 10px !important;
+  background-color: #FF99CB !important;
+  border-color: #FF99CB !important;
+
+}
+
+.btn-info:focus,
+.btn-info.focus {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+  box-shadow: 0 0 0 0.2rem #FF99CB !important;
 }
 
 .button:hover {
@@ -292,10 +300,7 @@ img {
     margin-bottom: 0.5rem !important;
   }
 
-  .section4 {
-    display: flex;
-    font-size: 10px !important;
-  }
+
 
   .section6 {
     font-size: 0.75rem !important;
@@ -435,11 +440,6 @@ img {
     font-size: 6pt;
   }
 
-  .boxtitlepoint h2 {
-    font-size: 15pt;
-    margin-bottom: 0px;
-    font-weight: bolder;
-  }
 
   .boxtitle h3 {
     font-size: 14pt;
@@ -465,10 +465,10 @@ img {
     margin-bottom: 0px;
   }
 
-  img {
+  /* img {
     background-size: cover;
     height: 50px;
-  }
+  } */
 
   .formh2 {
     font-size: 14pt;
@@ -510,5 +510,34 @@ img {
     padding: 0px 0px 0px 0px !important;
 
   }
+
+}
+
+selected {
+  color: rgb(226, 226, 226) !important;
+  font-size: 10pt !important;
+}
+
+.sizeformselecteds {
+  color: black !important;
+  font-size: 10pt !important;
+}
+
+.row1 {
+  margin: 0px 0px 0px 0px !important;
+  padding: 0px 0px 0px 0px !important;
+}
+
+.formlogin2 {
+  border-radius: 10px !important;
+  padding: 12px 12px 12px 12px !important;
+
+}
+
+.container1 {
+  margin: 15px 15px 15px 15px !important;
+  padding: 0px 0px 0px 0px !important;
+
+}
 
 }
